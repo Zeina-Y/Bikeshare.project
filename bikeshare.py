@@ -129,14 +129,13 @@ def load_data(city, month, day):
     return df
 
 def time_stats(df):
-     """
+    """
     Displays statistics on the most frequent times of travel.
 
     Args:
         df - Pandas DataFrame containing city data filtered by month and day
     """
     print('\nCalculating The Most Frequent Times of Travel...\n')
-
 
     # display the most common month
     if month == None :
@@ -166,7 +165,7 @@ def time_stats(df):
 
 
 def station_stats(df):
-     """
+    """
     Displays statistics on the most popular stations and trip.
 
     Args:
